@@ -4,14 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width" />
 
-        <title>Siko</title>
+        <title>{{site.title}}</title>
     </head>
     <body>
         <div class="site">
             <header class="site-header">
                 <div class="site-branding">
-                    <p class="site-title">Siko</p>
-                    <p class="site-description">Wellcome Siko!</p>
+                    <p class="site-title">{{site.title}}</p>
+                    <p class="site-description">{{site.description}}</p>
                 </div>
                 <nav class="navigation main">
                     
@@ -25,8 +25,7 @@
             </header>
             <main class="site-content">
 
-                <h1>404-Page not found</h1>
-<p>Sorry!</p>
+                {{content}}
         
             </main>
             <footer class="site-footer">
