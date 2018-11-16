@@ -1,0 +1,12 @@
+body {
+    color: var(--color-text-main, red);
+    
+}
+
+.site { 
+    padding: var(--spacing-site, 2em);
+}
+
+body p:first-child {
+
+}
