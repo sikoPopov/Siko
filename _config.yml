@@ -4,7 +4,7 @@
 title: Siko
 email: s.popov@abv.bg
 description: Wellcome Siko!
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Siko" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 destination: "docs"
 twitter_username: sikoPopov

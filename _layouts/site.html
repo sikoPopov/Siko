@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width" />
         <title>{{site.title}}</title>
-        <link rel="stylesheet" href="/css/styles.css" type="text/css" />
+        <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css" type="text/css" />
     </head>
     <body>
         <div class="site">
@@ -12,7 +12,9 @@
             <input type="checkbox" id="nav-main-toggle" name="nav-main-toggle">
             <header class="site-header">
                 <div class="site-branding">
-                    <p class="site-title">{{site.title}}</p>
+                    <p class="site-title">
+                            <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+                    </p>
                     <p class="site-description">{{site.description}}</p>
                 </div>
                 <label id="nav-toggle-left" for="nav-main-toggle" class="fas nav-toggle left"><span>Menu</span></label>
@@ -20,9 +22,9 @@
                 <nav class="navigation main">
                     
                     <ul>
-                        <li><a class="fas fa-paper-plane" href="/">Posts</a></li>
-                        <li><a class="fas fa-user-ninja" href="/about/">About</a></li>
-                        <li><a class="fas fa-phone-square" href="/contacts/">Contacts</a></li>
+                        <li><a class="fas fa-paper-plane" href="{{site.baseurl}}/">Posts</a></li>
+                        <li><a class="fas fa-user-ninja" href="{{site.baseurl}}/about/">About</a></li>
+                        <li><a class="fas fa-phone-square" href="{{site.baseurl}}/contacts/">Contacts</a></li>
                     </ul>
                     
                 </nav>
