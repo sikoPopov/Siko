@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     background: rgba(255,255,255,0.9);
+    animation: slidein 1s ease;
 
 }
 
@@ -54,20 +55,43 @@
 #nav-toggle-right {
     left: inherit;
     right: var(--spacing-site, 2rem);
+    animation: slidein 2s ease;
 }
 
 #nav-toggle-left {
-
+    animation: slidein 2s ease;
 }
 
 .nav-toggle span {
     display: none
+    
 }
 
 .nav-toggle::before {
     content: "\f150";
+    box-shadow: 0 0 0.5rem 0.1rem rgb(104, 76, 104);
+    background: purple
+    
 }
 
 #nav-main-toggle:checked + .site-header .nav-toggle::before {
     content: "\f057"
+    
+}
+
+@keyframes slidein {
+    0% {
+        transform: translateX(70rem) rotate(135deg);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateX(95rem) rotate(235);
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+        opacity: 1;
+    }
+
 }

@@ -41,7 +41,7 @@ gulp.task('serve', function() {
 		}
 	});
 	
-	gulp.watch(path.SCSS_SRC, ['scss']);
+	gulp.watch(path.SCSS_SRC, ['scss', 'jekyll']);
 	gulp.watch(path.HTML_SRC, ['jekyll']);
 	gulp.watch(path.HTML_SRC).on('change', browserSync.reload);
 	

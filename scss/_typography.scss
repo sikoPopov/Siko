@@ -1,5 +1,22 @@
 html{
-    font: 12px/1.5 "Arial", sans-serif;
+    font: var(--font-size-initial,12px)/1.5, "Arial", sans-serif;
+
+}
+
+
+
+@media screen and (min-width: 500px) {
+    html {font-size: var(--font-size-lv2, 14px); }
+
+}
+
+@media screen and (min-width: 700px) {
+    html {font-size: var(--font-size-lv3, 16px); }
+
+}
+
+@media screen and (min-width: 1600px) {
+    html {font-size: var(--font-size-lv4, 18px); }
 
 }
 

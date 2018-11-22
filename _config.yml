@@ -19,11 +19,9 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - .gitignore
-  - scss
-  - gulpfile.js
   - package.json
-  - package-lock.json
-  - .vscode 
+  - gulpfile.js
+  - docs
+  - node_modules
+  - scss
   

@@ -1,9 +1,12 @@
 {
-  "name": "jekyll-theme-lazy",
+  "name": "Siko",
   "version": "0.1.0",
   "description": "",
   "main": "index.html",
-  "dependencies": "",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  },
   "devDependencies": {
     "browser-sync": "",
     "csso": "",
