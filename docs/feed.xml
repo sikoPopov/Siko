@@ -1,3 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/Siko/feed.xml" rel="self" type="application/atom+xml" /><link href="/Siko/" rel="alternate" type="text/html" /><updated>2018-11-22T12:34:57+02:00</updated><id>/Siko/feed.xml</id><title type="html">Siko</title><subtitle>Wellcome Siko!</subtitle><entry><title type="html">First post for siko</title><link href="/Siko/2018/11/14/first-post-for-testing.html" rel="alternate" type="text/html" title="First post for siko" /><published>2018-11-14T10:12:29+02:00</published><updated>2018-11-14T10:12:29+02:00</updated><id>/Siko/2018/11/14/first%20post%20for%20testing</id><content type="html" xml:base="/Siko/2018/11/14/first-post-for-testing.html">&lt;p&gt;Hello,
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/Siko/feed.xml" rel="self" type="application/atom+xml" /><link href="/Siko/" rel="alternate" type="text/html" /><updated>2018-11-23T06:48:16+02:00</updated><id>/Siko/feed.xml</id><title type="html">Siko</title><subtitle>Wellcome Siko!</subtitle><entry><title type="html">Third post</title><link href="/Siko/2018/11/22/third-post-for-testing.html" rel="alternate" type="text/html" title="Third post" /><published>2018-11-22T17:47:29+02:00</published><updated>2018-11-22T17:47:29+02:00</updated><id>/Siko/2018/11/22/third-post-for-testing</id><content type="html" xml:base="/Siko/2018/11/22/third-post-for-testing.html">&lt;p&gt;I have the same problem, need variable password. But for Siemens Luminos RF. Sometimes I have E257/32
+Serial number, host ID and System Software Version  available.
+Thank’s in advance&lt;/p&gt;
+
+&lt;ul&gt;
+  
+  &lt;li&gt;&lt;a href=&quot;http://smstechforum.com/index.php?topic=1469.msg6554#msg6554&quot;&gt;Siemens forum&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">I have the same problem, need variable password. But for Siemens Luminos RF. Sometimes I have E257/32 Serial number, host ID and System Software Version available. Thank’s in advance</summary></entry><entry><title type="html">Second post</title><link href="/Siko/2018/11/22/second-post-for-testing.html" rel="alternate" type="text/html" title="Second post" /><published>2018-11-22T17:32:29+02:00</published><updated>2018-11-22T17:32:29+02:00</updated><id>/Siko/2018/11/22/second-post-for-testing</id><content type="html" xml:base="/Siko/2018/11/22/second-post-for-testing.html">&lt;p&gt;I have Error 408 on Polydoros 80S. I checked filaments of the tube(OPTI 150/40/80 HC) and found defective filament(Large Focus) I made a jumper between two pins of the high voltage cathode (-) cable(between Common and Large focus) and I hadn’t error 408. I change to Small focus and when I try to make exposure - I have very long exposure(even in low mAS), but haven’t x-rays…. and no error code&lt;/p&gt;
+
+&lt;p&gt;P.S. I changed these tube year ago(second hand) and calibrated both focuses completely…&lt;/p&gt;
+
+&lt;ul&gt;
+  
+  &lt;li&gt;&lt;a href=&quot;http://smstechforum.com/index.php?topic=2220.0&quot;&gt;Siemens forum&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">I have Error 408 on Polydoros 80S. I checked filaments of the tube(OPTI 150/40/80 HC) and found defective filament(Large Focus) I made a jumper between two pins of the high voltage cathode (-) cable(between Common and Large focus) and I hadn’t error 408. I change to Small focus and when I try to make exposure - I have very long exposure(even in low mAS), but haven’t x-rays…. and no error code</summary></entry><entry><title type="html">First post</title><link href="/Siko/2018/11/14/first-post-for-testing.html" rel="alternate" type="text/html" title="First post" /><published>2018-11-14T10:12:29+02:00</published><updated>2018-11-14T10:12:29+02:00</updated><id>/Siko/2018/11/14/first-post-for-testing</id><content type="html" xml:base="/Siko/2018/11/14/first-post-for-testing.html">&lt;p&gt;Hello,
 I am looking for service software and manual with adjustments for Polydoros SX 80.
-The software is VE00A and the generator I think is SX 50/80(the older one).&lt;/p&gt;</content><author><name></name></author><summary type="html">Hello, I am looking for service software and manual with adjustments for Polydoros SX 80. The software is VE00A and the generator I think is SX 50/80(the older one).</summary></entry></feed>
+The software is VE00A and the generator I think is SX 50/80(the older one).&lt;/p&gt;
+
+&lt;ul&gt;
+  
+  &lt;li&gt;&lt;a href=&quot;http://smstechforum.com/index.php?topic=2537.msg9341#msg9341&quot;&gt;Siemens forum&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Hello, I am looking for service software and manual with adjustments for Polydoros SX 80. The software is VE00A and the generator I think is SX 50/80(the older one).</summary></entry></feed>

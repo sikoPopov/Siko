@@ -1,5 +1,5 @@
 .navigation{
-    position: absolute;
+    position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
     display: none;
     align-items: center;
@@ -23,9 +23,9 @@
 .navigation a {
     display: block;
     padding: 1em 2em;
-    background: white;
+    background:white;
     text-decoration: none;
-    color: darkblue;
+    color: rgb(91, 0, 128);
     box-shadow: 0 0 1.5rem 0.5rem rgba(0,0,0,0.1);
 }
 
@@ -55,11 +55,11 @@
 #nav-toggle-right {
     left: inherit;
     right: var(--spacing-site, 2rem);
-    animation: slidein 2s ease;
+    
 }
 
 #nav-toggle-left {
-    animation: slidein 2s ease;
+    
 }
 
 .nav-toggle span {

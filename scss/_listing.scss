@@ -1,0 +1,26 @@
+.listing {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.listing li {
+    display: block;
+    list-style: none outside;
+    flex: 0 0 31%;
+}
+
+.listing a {
+    display: block;
+    background: white;
+    border-radius: 0.3em;
+    color: black;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,0.2);
+    text-decoration: none
+}
+
+.listing a span {
+    display: block
+}
