@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     background: rgba(255,255,255,0.9);
-    animation: slidein 1s ease;
+    
 
 }
 
@@ -17,16 +17,25 @@
 .navigation li{
     display: block;
     list-style: none outside;
-    padding: 1em 0em;
+    padding: 2em 0;
+    animation: navitemin 1s 1 ease forwards;
+    opacity: 0;
+    transform: scale(0) translate(0,3rem) rotate(720deg);
 }
+
+@for $i from 1 through 6 { 
+    .navigation li:nth-child(#{$i}) { animation-delay: $i * 0.15s; }
+    
+}
+    
 
 .navigation a {
     display: block;
     padding: 1em 2em;
-    background:white;
+    background: black;
     text-decoration: none;
-    color: rgb(91, 0, 128);
-    box-shadow: 0 0 1.5rem 0.5rem rgba(0,0,0,0.1);
+    color:white;
+    box-shadow: 0 0 1.5rem 0.5rem rgba(0,0,0,0.5);
 }
 
 .navigation a:before {
@@ -79,19 +88,9 @@
     
 }
 
-@keyframes slidein {
-    0% {
-        transform: translateX(70rem) rotate(135deg);
-        opacity: 0;
-    }
-
-    50% {
-        transform: translateX(95rem) rotate(235);
-    }
-
-    100% {
-        transform: translateX(0) rotate(0deg);
-        opacity: 1;
-    }
-
+#nav-main-toggle:checked + .site-header #nav-toggle-left,
+#nav-main-toggle:checked + .site-header #nav-toggle-right {
+    z-index: 1010;
 }
+
+

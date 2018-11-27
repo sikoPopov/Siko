@@ -13,19 +13,19 @@
 }
 
 .listing a {
-    display: block;
+    display: block ;
     background: rgb(94, 0, 131);
     border-radius: 0.3em;
     color: white;
     //box-shadow: 0 0 1rem 0.3rem rgba(0,0,0,0.3);
     box-shadow: 0 0 0.5rem 0.1rem rgb(104, 76, 104);
-    transition: background 0.3s ease-in, color 0.3s ease-in;
+    transition: background 0.3s ease-in, color 0.5s ease-in;
 }
 
 .listing a:hover {
     background: white;
     color: black;
-    box-shadow: 0 0 1rem 0.5rem rgba(0,0,0,0.5);
+    box-shadow: 0 0 4rem 1rem rgba(0,0,0,0.3);
     
 }
 
